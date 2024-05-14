@@ -1,0 +1,18 @@
+/* Add this to your existing CSS or create a new file (e.g., Footer.css) */
+
+.App-footer {
+    text-align: center;
+    padding: 20px;
+    color: navy;
+    background-color: lightskyblue;
+    /* position: sticky;
+    bottom: 0; */
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* You can add more styles as needed */
+  

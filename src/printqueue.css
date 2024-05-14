@@ -1,0 +1,140 @@
+.admin-print-queue ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-print-queue li {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  /* Add some spacing between document containers */
+  border: 1px solid #ccc;
+  /* Border around each document container */
+  border-radius: 5px;
+  /* Rounded corners for the document container */
+  padding: 10px;
+  box-shadow: 0 4px 2px rgba(54, 58, 54, 0.542);
+
+  &:hover {
+    border: 2px solid black;
+    transition: 0.1s ease-in-out;
+  }
+
+  /* Padding inside each document container */
+}
+
+.admin-print-queue li span {
+  display: block;
+  /* Make the document filename appear on a new line */
+  margin-bottom: 10px;
+  /* Add spacing between document filename and buttons */
+}
+
+.admin-print-queue li button {
+  margin-right: 10px;
+  /* Add spacing between buttons */
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-print-queue {
+  /* padding: 20px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  width: 1000px;
+  max-height: 580px;
+  /* Adjust the height as needed */
+  overflow-y: auto;
+  margin-left: 25px;
+}
+
+.admin-print-queue h2 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin-bottom: 10px;
+  position: sticky;
+  top: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+  padding: 15px;
+}
+
+.refresh-logo {
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.refresh-logo:hover {
+  transform: rotate(270deg);
+  color: aqua;
+  cursor: pointer;
+}
+
+.title {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #f96c6c;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.title span {
+  margin-left: 400px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.user-info h1 {
+  font-size: 30px;
+  color: #6aabff;
+}
+
+.h1style {
+  display: flex;
+  gap: 5px;
+}
+
+.h3style {
+  color: gray;
+  display: flex;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.file-info span {
+  font-size: 18px;
+}
+
+.file-info button {
+  padding: 20px;
+  size: 4px;
+}
+
+.file-info {
+  border: 1px solid #3500ff;
+  box-shadow: inset 1px 4px 20px 0px #c8616182;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}

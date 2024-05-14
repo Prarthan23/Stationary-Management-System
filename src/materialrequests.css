@@ -1,0 +1,49 @@
+.admin-material-requests{
+  /* padding: 20px; */
+  margin-top: 15px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  /* box-shadow: 0 4px 2px rgba(54, 58, 54, 0.542); */
+  width: 1000px;
+  padding-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+  max-height: 300px;/* Adjust the height as needed */
+  overflow-y: auto;
+  margin-left: 25px;
+  /* &:hover{
+    transform: scale(1.05);
+    background-color: rgba(0, 255, 255, 0.441);
+    width: 425px;
+  } */
+}
+  .material-request{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px; /* Add some spacing between document containers */
+    border: 1px solid #ccc; /* Border around each document container */
+    border-radius: 5px; /* Rounded corners for the document container */
+    padding: 10px;
+    box-shadow: 0 4px 2px rgba(54, 58, 54, 0.542);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 4px;
+
+  }
+  .admin-material-requests h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #f96c6c;
+    padding: 15px;
+    color: white;
+  }
+  .materialrequest-dlt{
+    background-color: red;
+  }
+  

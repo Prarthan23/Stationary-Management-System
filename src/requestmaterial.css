@@ -1,0 +1,61 @@
+.material-request-container {
+    width: 500px;
+    background-color:#a0c4ff;
+    border: 1px solid lightsteelblue;
+    box-shadow: inset 12px 13px 20px 5px rgb(68 94 175 / 65%); 
+    border-radius: 10px;
+  }
+  
+  .material-request-container h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: navy;
+  }
+  
+  .material-request-container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .material-request-container input, .material-request-container button, .material-request-container select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .material-request-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .material-request-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .requestform-btn{
+    background-color: navy;
+    margin-bottom: 20px;
+    &:hover{
+      transform: scale(1.05);
+       background-color: #007bff;;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+    }
+  }
+  .material-request-container select {
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+    border: 1px solid #ccc; /* Add border */
+  }
+  
+  .material-request-container select:hover {
+    border-color: #007bff; /* Change border color on hover */
+  }
+  
+  .material-request-container select:focus {
+    outline: none; /* Remove default focus style */
+    border-color: #007bff; /* Change border color on focus */
+  }

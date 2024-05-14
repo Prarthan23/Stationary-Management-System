@@ -1,0 +1,42 @@
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-details {
+  color: cadetblue;
+  border-radius: 10px;
+  width: 460px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-size: 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 54%);
+}
+
+.profile-details p {
+  margin: 10px 0;
+}
+
+.profile-details p:first-child {
+  margin-top: 0;
+}
+
+.profile-details p:last-child {
+  margin-bottom: 0;
+}
+
+.p-title {
+  color: crimson;
+}
+
+.u-name {
+  font-weight: bolder;
+  color: deepskyblue;
+}
